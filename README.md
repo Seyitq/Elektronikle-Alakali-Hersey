@@ -1,64 +1,63 @@
-# Electronic Engineering <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
+# Electronikle alakalı herşey <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
 
-> awesome electronic engineering resources: Learning resources, circuits simulators, embedded systems, components and much more.
+> Öğrenme kaynakları, devre simülatörleri, gömülü sistemler, bileşenler ve çok daha fazlası.
 
-## Contents ##
+## Başlıklarımız ##
 
-- [Learning Resources](#learning-resources)
-  - [Websites](#websites)
-  - [Books](#books)
-  - [MOOCs](#moocs)
-  - [YouTube Channels](#youtube-channels)
+- [Öğrenme Kaynakları](#online-kaynaklar)
+  - [Siteler](#websiteleri)
+  - [Kitaplar](#kitaplar)
+  - [Kurslar](#bedava-kurslar)
+  - [YouTube Kanalları](#youtube-kanalları)
   - [Podcasts](#podcasts)
-- [Circuits Simulators](#circuits-simulators)
+- [Devre Simulatorleri](#circuits-simulators)
 - [PCB](#pcb)
-  - [General](#general)
+  - [Genel](#general)
   - [KiCad](#kicad)
   - [Gerber Viewers](#gerber-viewers)
-- [Forums](#forums)
-- [Projects](#projects)
-- [Storing Components](#storing-components)
+- [Forumlar](#forums)
+- [Projecler](#projects)
+- [Bileşenlerin Depolanması](#storing-components)
 - [Searching Engines of Components](#searching-engines-of-components)
-- [Blogs](#blogs)
-- [Interview Questions](#interview-questions)
-- [Others](#others)
-- [Contribute](#contribute)
+- [Bloglar](#blogs)
+- [Genel Mülakat Soruları](#interview-questions)
+- [Diğer](#others)
+- [Katkıda Bulun](#contribute)
 
-## Learning Resources ##
+## Online Kaynaklar ##
 
-### Websites ###
-- [All About Circuits](https://www.allaboutcircuits.com/education/) - Offers a wide variety of learning resources including textbooks, video lectures and worksheets.
-- [Electronics Tutorials](https://www.electronics-tutorials.ws/) - Very descriptive tutorials in many different fields of
-electronics.
-- [Electronics Club](https://electronicsclub.info/) - A website for anyone wishing to learn about electronics or build simple projects. Written for beginners but used by many others as a quick reference.
-- [Adafruit Learning System](https://learn.adafruit.com/) - It provides a good bit of documentations for a lot of their products, various projects and topics. While these articles tend to geared to beginners and hobbyists, it provides a good resource to discover a new topic.
+### WebSiteleri ###
+- [Elektronik Hakkında Herşey](https://www.allaboutcircuits.com/education/) - Ders kitapları, videolu dersler ve çalışma sayfaları dahil olmak üzere çok çeşitli öğrenme kaynakları sunar.
+- [Electronik Öğreticisi](https://www.electronics-tutorials.ws/) - Elektronik alanında birden fazla alanda açıklayıcı öğreticiler
+- [Electronik Klubü](https://electronicsclub.info/) - Elektronik hakkında bilgi edinmek veya basit projeler oluşturmak isteyen herkes için bir web sitesi. Yeni başlayanlar için yazılmış ancak başkaları tarafından kopyala-yapıştır olarak kullanılmıştır.
+- [Adafruit Learning System](https://learn.adafruit.com/) - Ürünlerinin çoğu, çeşitli projeler ve konular için iyi bir dokümantasyon sağlar. Bu makaleler yeni başlayanlara ve hobilere yönelik olsa da, yeni bir konu keşfetmek için iyi bir kaynak sağlar.
+### Kitaplar ###
+- [Paul and Winfield - The Art Of Electronics](https://www.uvm.edu/~gpetrucc/courses/Chem219/Lectures/Paul%20Horowitz,%20Winfield%20Hill%20-%20The%20Art%20of%20Electronics-Cambridge%20University%20Press%20(2015).pdf) - Tüm elektronik mühendisleri arasındaki en popüler kitap, Kesinlikle okumanız gerek
+- [Sedra and Smith - Microelectronic Circuits](https://www.dropbox.com/s/d1tasdkd5u6serm/Sedra%20Smith%20-%20Microelectronic%20Circuits%20-%205th%20Edition.pdf?dl=0) - Her mikroelektronik konusunu çok anlaşılır bir şekilde açıklıyor.
+- [Agarwal and Lang - Foundations of Analog and Digital](https://www.dropbox.com/s/g09ot8yzsp1dmrd/Agarwal%20and%20Lang%20-%20Foundations%20of%20Analog%20and%20Digital%20-%202005.pdf?dl=0) - Başlık herşeyi açıklıyor, dijital ve analog elektroniğin temellerini açıklıyor.
+- [Hayt Kemmerly - Engineering Circuit Analysis](https://www.dropbox.com/s/zoyywgy0tgdz7my/Hayt%20Kemmerly%20-%20Engineering%20Circuit%20Analysis.pdf?dl=0) -Öğrenciler için yapılmış, devre analizini çok net bir şekilde açıklıyan bir kitaptır. Sayısal örnekler fazlasıyla vardır.
+- [Darren Ashby - Electrical Engineering 101](https://www.dropbox.com/s/cv5nk91ow8jsjp7/Darren%20Ashby%20-%20Electrical%20Engineering%20101%20-%203rd%20Edition.pdf?dl=0) - Elektroniğin temel teorisi ve pratiği.
 
-### Books ###
-- [Paul and Winfield - The Art Of Electronics](https://www.uvm.edu/~gpetrucc/courses/Chem219/Lectures/Paul%20Horowitz,%20Winfield%20Hill%20-%20The%20Art%20of%20Electronics-Cambridge%20University%20Press%20(2015).pdf) - The most popular and important book, every Electronic Engineer should read it.
-- [Sedra and Smith - Microelectronic Circuits](https://www.dropbox.com/s/d1tasdkd5u6serm/Sedra%20Smith%20-%20Microelectronic%20Circuits%20-%205th%20Edition.pdf?dl=0) - Explains every microelectronics topic in a very lucid manner.
-- [Agarwal and Lang - Foundations of Analog and Digital](https://www.dropbox.com/s/g09ot8yzsp1dmrd/Agarwal%20and%20Lang%20-%20Foundations%20of%20Analog%20and%20Digital%20-%202005.pdf?dl=0) - Title is very self-explanatory, explains the basics of digital and analogue electronics.
-- [Hayt Kemmerly - Engineering Circuit Analysis](https://www.dropbox.com/s/zoyywgy0tgdz7my/Hayt%20Kemmerly%20-%20Engineering%20Circuit%20Analysis.pdf?dl=0) - Made for students, it explains circuit analysis in a very clear way. Lots of numerical examples are included.
-- [Darren Ashby - Electrical Engineering 101](https://www.dropbox.com/s/cv5nk91ow8jsjp7/Darren%20Ashby%20-%20Electrical%20Engineering%20101%20-%203rd%20Edition.pdf?dl=0) - Basic theory and practice of electronics.
+### Bedava Kurslar ###
+- [Beleş Kurs Listem](https://www.mooc-list.com/categories/eng-electronics) - Tüm çevrimiçi beleş kurs platformlarından elektronik kursları toplayan beleş kurs arama motoru.
+- [edX](https://www.edx.org/learn/electronics) - Tüm elektronik kurslarını birarada bulabileceğiniz bir site.
+- [KursBölgem](https://www.coursera.org/browse/physical-science-and-engineering/electrical-engineering) - Coursera elektrik mühendisliği kurslarının harika derlemesi.
 
-### MOOCs ###
-- [MOOC LIST](https://www.mooc-list.com/categories/eng-electronics) - MOOC search engine that gathers electronics courses from all online MOOC platforms.
-- [edX](https://www.edx.org/learn/electronics) - Explore between all kind of electronics online courses.
-- [coursera](https://www.coursera.org/browse/physical-science-and-engineering/electrical-engineering) - Great compilation of Coursera electrical engineering courses.
-
-### YouTube Channels ###
-- [GreatScott!](https://www.youtube.com/user/greatscottlab) - GreatScott! offers from basics concepts to experiments in a very clear and explained way.
-- [EEVblog](https://www.youtube.com/user/EEVblog) - David L. Jones is one of the most known and wise electronics engineers and
-in his YouTube channel, you can find a lot of interesting videos about certain electronics concepts, reviews or even live
-videos where he replies to any question fro .
-- [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ) - Projects and comparison of electronic devices.
-- [Jeremy Blum](https://www.youtube.com/user/sciguy14) - Amazing Arduino tutorial series and projects.
-- [Proto G](https://www.youtube.com/user/garofalo42) - Yet another interesting channel with lots of great projects.
-- [Phils Lab](https://www.youtube.com/c/PhilS94) - Analog and digital electronics design, PCB design, control systems, digital signal processing, STM32, KiCad, RF, etc.
-- [Introduction to Embedded Linux: Buildroot, Yocto...](https://www.youtube.com/watch?v=9vsu67uMcko&list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB&index=1) - YouTube playlist with that covers the basics of embedded systems.
+### YouTube Kanalları ###
+- [GreatScott!](https://www.youtube.com/user/greatscottlab) - GreatScott! temel kavramlardan deneylere kadar çok net ve açıklayıcı bir şekilde sunar. Kendisini severek izliyorum.
+- [EEVblog](https://www.youtube.com/user/EEVblog) - David L. Jones en bilinen ve bilge elektronik mühendislerinden biridir ve
+YouTube kanalında belirli elektronik konseptleri, incelemeleri ve hatta canlı yayın hakkında birçok ilginç video bulabilirsiniz.
+herhangi bir soruya cevap verdiği videolar bulunmaktadır.
+- [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ) -Elektronik cihazların projeleri ve karşılaştırılmasını yapan bir kanaldır.
+- [Jeremy Blum](https://www.youtube.com/user/sciguy14) - İnanılmaz Arduino eğitim serisi ve projeleri.
+- [Proto G](https://www.youtube.com/user/garofalo42) - Bir sürü harika projeye sahip başka bir ilginç kanal.
+- [Phils Lab](https://www.youtube.com/c/PhilS94) - Analog ve dijital elektronik tasarımı, PCB tasarımı, kontrol sistemleri, dijital sinyal işleme, STM32, KiCad, RF vb.
+- [Introduction to Embedded Linux: Buildroot, Yocto...](https://www.youtube.com/watch?v=9vsu67uMcko&list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB&index=1) - Bununla birlikte YouTube oynatma listesi, gömülü sistemlerin temellerini kapsar.
+- [Lezzetli Robot Tarifleri](https://www.youtube.com/c/LezzetliRobotTarifleri) - Kendisi türkiyenin öndegelen türk elektronik kanallarından birisinin sahibidir her şeyi net ve açıklayıcıdır.
 
 ### Podcasts ###
-- [Internet of Things](https://iotpodcast.com/) - Hosted by Stacey Higginbotham they discuss IoT topics and news.
-- [The Amp Hour](https://theamphour.com/tag/contextual-electronics/) - Podcast by Contextual Electronics with lots of interviews to important engineers.
+- [Internet of Things](https://iotpodcast.com/) - Stacey Higginbotham'ın ev sahipliğinde IoT konularını ve haberlerini tartışılan bir podcasttir.
+- [The Amp Hour](https://theamphour.com/tag/contextual-electronics/) - Önemli mühendislerle çok sayıda röportaj içeren Contextual Electronics tarafından hazırlanan podcasttir.
 - [MIT Open Courseware - Circuits and Electronics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-002-circuits-and-electronics-spring-2007/) - MIT course of an introduction to circuits and electronics.
 - [Programming Electronics Academy Podcast](https://programmingelectronics.com/oshpodcast/) - Podcast focused on how to programm embedded systems.
 
