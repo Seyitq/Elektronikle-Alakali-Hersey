@@ -1,4 +1,4 @@
-# Electronikle alakalı herşey <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
+# Elektronikle alakalı herşey <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
 
 > Öğrenme kaynakları, devre simülatörleri, gömülü sistemler, bileşenler ve çok daha fazlası.
 
