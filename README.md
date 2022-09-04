@@ -18,7 +18,7 @@
 - [Forumlar](#forumlar)
 - [Projeler](#projelerin-paylaşıldığı-siteler)
 - [Bileşenlerin Depolanması](#bom-dosyası-ve-saklama-kutuları)
-- [Searching Engines of Components](#searching-engines-of-components)
+- [Malzemelerin Bulunması](#malzemelerin-bulunmasi)
 - [Bloglar](#bloglar)
 - [Genel Mülakat Soruları](#genel-mülakat-soruları)
 - [Diğer](#diğer-şeyler)
@@ -107,7 +107,7 @@ herhangi bir soruya cevap verdiği videolar bulunmaktadır.
 - [Partsbox.io](https://partsbox.io/) - Elektronik parçalarınızı takip etmek için çok yenilikçi ve harika bir yol sunarlar(Bom dosyası oluşturmak için kullanabilirsiniz.).
 - [Reddit - Storing your electronic components](https://es.reddit.com/r/electronics/comments/7xz1vs/tip_storing_your_electronic_components/) - Bileşenlerinizi saklamanın birçok yolu olan bir subreddit sayfası tüm kutu çeşitlerini bulunduruyor.
 
-## Searching Engines of Components ##
+## Malzemelerin Bulunması ##
 
 - [Octopart](https://octopart.com/) - Herhangi bir bileşeni tanımına, parça numarasına veya kategorisine göre bulabilirsiniz.
 - [Findchips](https://www.findchips.com/) - Herhangi bir elektronik bileşen hakkında anında bilgi edinin.
