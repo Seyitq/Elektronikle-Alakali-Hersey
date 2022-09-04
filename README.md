@@ -9,20 +9,19 @@
   - [Kitaplar](#kitaplar)
   - [Kurslar](#bedava-kurslar)
   - [YouTube Kanalları](#youtube-kanalları)
-  - [Podcasts](#podcasts)
-- [Devre Simulatorleri](#circuits-simulators)
+  - [Podcasts](#podcastler)
+- [Devre Simülatörleri](#devre-simülatörleri)
 - [PCB](#pcb)
-  - [Genel](#general)
+  - [Genel Bilgiler ](#genel-bilgiler)
   - [KiCad](#kicad)
-  - [Gerber Viewers](#gerber-viewers)
-- [Forumlar](#forums)
-- [Projecler](#projects)
-- [Bileşenlerin Depolanması](#storing-components)
+  - [Gerber Görüntüleyiciler](#gerber-görüntüleyiciler)
+- [Forumlar](#forumlar)
+- [Projeler](#projelerin-paylaşıldığı-siteler)
+- [Bileşenlerin Depolanması](#bom-dosyası-ve-saklama-kutuları)
 - [Searching Engines of Components](#searching-engines-of-components)
-- [Bloglar](#blogs)
-- [Genel Mülakat Soruları](#interview-questions)
-- [Diğer](#others)
-- [Katkıda Bulun](#contribute)
+- [Bloglar](#bloglar)
+- [Genel Mülakat Soruları](#genel-mülakat-soruları)
+- [Diğer](#diğer-şeyler)
 
 ## Online Kaynaklar ##
 
@@ -55,87 +54,88 @@ herhangi bir soruya cevap verdiği videolar bulunmaktadır.
 - [Introduction to Embedded Linux: Buildroot, Yocto...](https://www.youtube.com/watch?v=9vsu67uMcko&list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB&index=1) - Bununla birlikte YouTube oynatma listesi, gömülü sistemlerin temellerini kapsar.
 - [Lezzetli Robot Tarifleri](https://www.youtube.com/c/LezzetliRobotTarifleri) - Kendisi türkiyenin öndegelen türk elektronik kanallarından birisinin sahibidir her şeyi net ve açıklayıcıdır.
 
-### Podcasts ###
+### Podcastler ###
 - [Internet of Things](https://iotpodcast.com/) - Stacey Higginbotham'ın ev sahipliğinde IoT konularını ve haberlerini tartışılan bir podcasttir.
 - [The Amp Hour](https://theamphour.com/tag/contextual-electronics/) - Önemli mühendislerle çok sayıda röportaj içeren Contextual Electronics tarafından hazırlanan podcasttir.
-- [MIT Open Courseware - Circuits and Electronics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-002-circuits-and-electronics-spring-2007/) - MIT course of an introduction to circuits and electronics.
-- [Programming Electronics Academy Podcast](https://programmingelectronics.com/oshpodcast/) - Podcast focused on how to programm embedded systems.
+- [MIT Open Courseware - Circuits and Electronics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-002-circuits-and-electronics-spring-2007/) -MIT'in bedava sunduğu Devreler ve elektroniğe giriş kursu.
+- [Programming Electronics Academy Podcast](https://programmingelectronics.com/oshpodcast/) - Podcast, gömülü sistemlerin nasıl programlanacağına odaklanmış yararlı bir kaynak.
 
-## Circuits Simulators ##
+## Devre Simülatörleri ##
 
-- [PartSim](https://www.partsim.com/simulator) - Online simulator with all the basics functions.
-- [LTspice](http://www.analog.com/en/design-center/design-tools-and-calculators.html) - Free software with a great variety of design simulation tools.-
+- [PartSim](https://www.partsim.com/simulator) - Tüm temel işlevlere sahip işinizi görecek çevrimiçi simülatör.
+- [LTspice](http://www.analog.com/en/design-center/design-tools-and-calculators.html) - Çok çeşitli tasarım ve simülasyon araçlarına sahip ücretsiz bir yazılım.
 
 ## PCB ##
 
-### General ###
-- [Top 5 PCB Design Guidelines Every PCB Designer Needs to Know](https://resources.altium.com/pcb-design-blog/top-pcb-design-guidelines-every-pcb-designer-needs-to-know) - General guidelines to design PCBs.
-- [EEVblog - PCB Desing Tutorial](http://www.alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf) - Long and detailed guide that covers everything about PCB design.
-- [CABLAB.io](https://cadlab.io/) - Git Version Control for Eagle PCB Design.
-- [UPVERTER](https://upverter.com/) - UPVERTER is a cloud based circuit board design tool (aka EDA). It can assist with developing schematics, PCB layouts, bills of materials, and gerber files.
+### Genel Bilgiler ###
+- [Top 5 PCB Design Guidelines Every PCB Designer Needs to Know](https://resources.altium.com/pcb-design-blog/top-pcb-design-guidelines-every-pcb-designer-needs-to-know) - PCB tasarlamak için genel kurallaın yazılı bir kaynak.
+- [EEVblog - PCB Desing Tutorial](http://www.alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf) - PCB tasarımıyla ilgili her şeyi kapsayan uzun ve ayrıntılı ayrıca daha iyi tasarım yapmak isteyenler için yararlı bir kılavuz.
+- [CABLAB.io](https://cadlab.io/) - Eagle PCB Tasarımı için Git Sürüm Kontrolü(Eagle Artık Fusion360a geçti) .
+- [UPVERTER](https://upverter.com/) - UPVERTER, bulut tabanlı bir devre kartı tasarım aracıdır (aka EDA). Şemalar, PCB düzenleri, malzeme listeleri ve gerber dosyaları geliştirmeye yardımcı olabilir.
+- [Easy Eda](https://easyeda.com/) - Yeni Başlayanlar için 5 dakikada öğrenebileceği basit bulut tabanlı tasarım aracıdır.
 
 ### KiCad ###
-- [B.A.Byrce - KiCad PCB Tutorial](http://babryce.com/kicad/tutorial.html) - Short yet efficient KiCad tutorial that uses an example to guide you through all the processes of creating a PCB.
-- [Contextual Electronics - Shine On You Crazy KiCad](https://www.youtube.com/watch?v=BVhWh3AsXQs&list=PLy2022BX6EspFAKBCgRuEuzapuz_4aJCn) - Contextual Electronics offers lots of KiCad video tutorials.
-- [AddOhms](https://www.youtube.com/watch?v=5fvdxd0QhTw&list=PLRIGIzu0Z7KllhKqPsNDwitjpK45SHoKg) - Custom Arduino Design Series, Schematic, PCB, Test.
+- [B.A.Byrce - KiCad PCB Tutorial](http://babryce.com/kicad/tutorial.html) - Bir PCB oluşturmanın tüm süreçlerinde size rehberlik edecek bir örnek kullanan kısa ama etkili bir KiCad öğreticisi.
+- [Contextual Electronics - Shine On You Crazy KiCad](https://www.youtube.com/watch?v=BVhWh3AsXQs&list=PLy2022BX6EspFAKBCgRuEuzapuz_4aJCn) - Contextual Electronics, birçok KiCad video eğitimi sunar(kendisini yukarda belirtmiştim zaten).
+- [AddOhms](https://www.youtube.com/watch?v=5fvdxd0QhTw&list=PLRIGIzu0Z7KllhKqPsNDwitjpK45SHoKg) - Özel Arduino Tasarım Serisi, Şematik, PCB, Testlerin yapıldığı güzel bir kaynak.
 
-### Gerber Viewers ###
-- [gerbv](http://gerbv.geda-project.org/) - Free and open source Gerber viewer. Is a native Linux application, but also has an available version for Windows.
-- [Reference Gerber Viewer](https://gerber.ucamco.com/) - Free and online Gerber viewer developed by Ucamco.
-- [Tracespace.io](http://viewer.tracespace.io/) - Online viewer that allows to seeing each layer isolated.
+### Gerber Görüntüleyiciler ###
+- [gerbv](http://gerbv.geda-project.org/) - Ücretsiz ve açık kaynak Gerber görüntüleyici. Yerel bir Linux uygulamasıdır, ancak Windows için de kullanılabilir bir sürümü vardır.
+- [Reference Gerber Viewer](https://gerber.ucamco.com/) - Ucamco tarafından geliştirilen ücretsiz ve çevrimiçi Gerber görüntüleyici.
+- [Tracespace.io](http://viewer.tracespace.io/) -Her katmanın görülmesini sağlayan çevrimiçi görüntüleyici.
 
-## Forums ##
+## Forumlar ##
 
-- [Electronics StackExchange.](https://electronics.stackexchange.com/) - Do you have any questions? 98% it will be already solved in here.
-- [/r/AskElectronics/](https://www.reddit.com/r/AskElectronics/) - Feel free to ask any question, gentle people will try their best to help you.
-- [/r/ECE/](https://www.reddit.com/r/ECE/) - Discussion of all things related to electrical and computer engineering.
-- [/r/electronic_circuits/](https://www.reddit.com/r/electronic_circuits/) - Place to discuss diagrams and schematics of any circuit.
-- [/r/ElectricalEngineering/](https://www.reddit.com//r/ElectricalEngineering/) - Subreddit for Electrical Engineering.
-- [/r/electronics/](https://www.reddit.com/r/electronics/) - Subreddit dedicated to news, articles and discussions related to electronic systems and circuits.
-- [/r/arduino](https://www.reddit.com/r/arduino/) - A place for any Arduino discussion.
-- [/r/ArduinoProjects/](https://www.reddit.com/r/ArduinoProjects/) - Show your Arduino project or get amazed by others projects.
+- [Electronics StackExchange.](https://electronics.stackexchange.com/) -Sormak istediğiniz bir şeymi var?(O zaman Saulu ara!)Zaten çoğu sorunun açıklandığı bir sitedir.
+- [/r/AskElectronics/](https://www.reddit.com/r/AskElectronics/) - Herhangi bir soru sormaktan çekinmeyin, nazik insanlar size yardımcı olmak için ellerinden geleni yapacaklardır.
+- [/r/ECE/](https://www.reddit.com/r/ECE/) - Elektrik ve bilgisayar mühendisliği ile ilgili her şeyin tartışıldığı bir subreddit sayfası.
+- [/r/electronic_circuits/](https://www.reddit.com/r/electronic_circuits/) - Herhangi bir devrenin diyagramlarını ve şemalarını tartışabileceğiniz bir yerdir.
+- [/r/ElectricalEngineering/](https://www.reddit.com//r/ElectricalEngineering/) - Elektrik Mühendisliği için Bir Subreddit Sayfası.
+- [/r/electronics/](https://www.reddit.com/r/electronics/) - Elektronik sistemler ve devrelerle ilgili haberlere, makalelere ve tartışmalara ayrılmış bir subreddit sayfası.
+- [/r/arduino](https://www.reddit.com/r/arduino/) - Herhangi bir Arduino sorununuz için subreddit sayfası.
+- [/r/ArduinoProjects/](https://www.reddit.com/r/ArduinoProjects/) -Arduino projenizi paylaşın veya başka projelere göz atın ve ilham alın.
 
-## Projects ##
+## Projelerin Paylaşıldığı Siteler ##
 
-- [Instructables](http://www.instructables.com/technology/) - You can find any kind of electronics project.
-- [Hackter.io](https://www.hackster.io/projects) - Platform to search and upload electronics projects, they also host lots of projects contests with greats rewards.
-- [Hackaday.io](https://hackaday.io/projects) - This popular blog also host a project sharing page.
-- [Electronics Projects Hub](https://electronicsprojectshub.com/) - Small site with great projects.
+- [Instructables](http://www.instructables.com/technology/) - Her türlü elektronik projesini bulabileceğiniz bir site.
+- [Hackter.io](https://www.hackster.io/projects) - Elektronik projeleri aramak ve yüklemek için harika bir platform, aynı zamanda harika ödüller sunan birçok proje yarışmasına da ev sahipliği yapan bir site
+- [Hackaday.io](https://hackaday.io/projects) - Bu popüler blog aynı zamanda bir proje paylaşım sayfasına da ev sahipliği yapıyor(arduino create hub'ın yna sitesi).
+- [Electronics Projects Hub](https://electronicsprojectshub.com/) - Harika projelere sahip küçük site.
 
-## Storing Components ##
+## BOM Dosyası ve Saklama Kutuları ##
 
-- [Partsbox.io](https://partsbox.io/) - They offer a very innovative and great way to keep track of your electronics parts.
-- [Reddit - Storing your electronic components](https://es.reddit.com/r/electronics/comments/7xz1vs/tip_storing_your_electronic_components/) - Reddit thread with lots of ways to store your components.
+- [Partsbox.io](https://partsbox.io/) - Elektronik parçalarınızı takip etmek için çok yenilikçi ve harika bir yol sunarlar(Bom dosyası oluşturmak için kullanabilirsiniz.).
+- [Reddit - Storing your electronic components](https://es.reddit.com/r/electronics/comments/7xz1vs/tip_storing_your_electronic_components/) - Bileşenlerinizi saklamanın birçok yolu olan bir subreddit sayfası tüm kutu çeşitlerini bulunduruyor.
 
 ## Searching Engines of Components ##
 
-- [Octopart](https://octopart.com/) - Find any component by its description, part number or category.
-- [Findchips](https://www.findchips.com/) - Get instant insight into any electronic component.
+- [Octopart](https://octopart.com/) - Herhangi bir bileşeni tanımına, parça numarasına veya kategorisine göre bulabilirsiniz.
+- [Findchips](https://www.findchips.com/) - Herhangi bir elektronik bileşen hakkında anında bilgi edinin.
+## Bloglar ##
 
-## Blogs ##
+- [Circuits.io](https://circuits.io/) - Simülasyonlar ve öğreticiler için ideal bir site.
+- [Interrupt](https://interrupt.memfault.com/blog/) - Çok sayıda ilginç gömülü gönderi içeren Memfault'tan bir blog.
+- [Embedded Artistry](https://embeddedartistry.com/) - Kendini mükemmelliğe ve sürekli iyileştirmeye adamış gömülü sistem geliştiricileri için web sitesidir.
+- [Microwaves & RF](http://www.mwrf.com/) - Mikroelektronik ve RF ile ilgili haberlerin bulunduğu bir site.
+- [EDN Network](https://www.edn.com/) - Her türlü elektronik haberini içen bir blog.
+- [SparkFun](https://www.sparkfun.com/) -Bir sürü farklı kaynak, öğretici içeren bir site.
+- [Jay Carlson: So you want to build an embedded system?](https://jaycarlson.net/embedded-linux/) - Jay Carlson'dan gömülü sistemler hakkında inanılmaz bir site.
 
-- [Circuits.io](https://circuits.io/) - Ideal for simulations and tutorials.
-- [Interrupt](https://interrupt.memfault.com/blog/) - Blog from Memfault with lots of interesting embedded posts.
-- [Embedded Artistry](https://embeddedartistry.com/) - Website for embedded systems developers who are dedicated to excellence and continual improvement.
-- [Microwaves & RF](http://www.mwrf.com/) - News related to microelectronics and RF.
-- [EDN Network](https://www.edn.com/) - All kinds of electronics news.
-- [SparkFun](https://www.sparkfun.com/) - Bunch of different resources, tutorials and a great shop!
-- [Jay Carlson: So you want to build an embedded system?](https://jaycarlson.net/embedded-linux/) - Incredible post from Jay Carlson about embedded systems.
+## Mülakat Soruları ##
+- [A C Test: The 0x10 Best Questions for Would-be Embedded Programmers](https://rmbconsulting.us/publications/a-c-test-the-0x10-best-questions-for-would-be-embedded-programmers/) - İlginç gömülü (C) mülakat soruları.
+- [Interview Question Breakdown: Bad C Analysis](https://embeddedartistry.com/blog/2017/06/05/interview-question-breakdown-bad-c-analysis/) - Bir C problemine dayalı mülakat soruları seti.
+- [Embedded c interview questions and answers](https://aticleworld.com/embedded-c-interview-questions-2/) -100 Gömülü C kısa mülakat soruları.
+- [Embedded Interview Questions](https://docs.google.com/document/d/18HMyd-lFu1hWiixFLS2Pc7-SgyzDDqitzXbfAnUVeBE/edit#heading=h.pvyrqg4xft42) - İşletim sisteminden iletişim protokollerine gömülü sorular.
+- [What are some more obscure interview questions for embedded positions?](https://www.reddit.com/r/embedded/comments/bqoqpr/what_are_some_more_obscure_interview_questions/) -çok sayıda ilginç röportaj sorusu içeren bir subreddit sayfası.
 
-## Interview Questions ##
-- [A C Test: The 0x10 Best Questions for Would-be Embedded Programmers](https://rmbconsulting.us/publications/a-c-test-the-0x10-best-questions-for-would-be-embedded-programmers/) - Interesting embedded C interview questions.
-- [Interview Question Breakdown: Bad C Analysis](https://embeddedartistry.com/blog/2017/06/05/interview-question-breakdown-bad-c-analysis/) - Set of interview questions based on a C problem.
-- [Embedded c interview questions and answers](https://aticleworld.com/embedded-c-interview-questions-2/) - 100 Embedded C short interview questions.
-- [Embedded Interview Questions](https://docs.google.com/document/d/18HMyd-lFu1hWiixFLS2Pc7-SgyzDDqitzXbfAnUVeBE/edit#heading=h.pvyrqg4xft42) - Embeeded questions from OS to communication protocols.
-- [What are some more obscure interview questions for embedded positions?](https://www.reddit.com/r/embedded/comments/bqoqpr/what_are_some_more_obscure_interview_questions/) - r/embedded thread with lots of interesting interview questions.
+## Diğer Şeyler ##
 
-## Others ##
+- [Soldering is easy](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) - Lehimleme ustası olmak için bilmeniz gereken her şeyi öğreten lehimleme çizgi roman halinde hazırlanmış bir Rehber.
+- [Fritzing](http://fritzing.org/home/) - Açık Kaynaklı; Şematik ve Breadboard devresi çizmenize yarayn bir site
+- [XOD Visual Programming Arduino](https://www.youtube.com/watch?v=qxjLH_3US04&feature=youtu.be) - Arduino'yu görsel bloklar aracılığıyla çok özel bir şekilde programlamaya yarayan bir program.
+- [Electronics Weekly](https://www.electronicsweekly.com/) - Electronics Weekly, sektörle ilgili haberler arayanlar için iyi bir kaynaktır. İş, tasarım, ürünler ve daha pek çok konuda elektrik mühendisliği ile doğrudan ilgili konular vardır. Mevcut işleri görüntülemek veya işleri kendiniz göndermek için de kullanabilirsiniz.
 
-- [Soldering is easy](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) - Soldering comic guide that teaches everything you need to know to become a master of soldering.
-- [Fritzing](http://fritzing.org/home/) - Open source hardware that includes schematic capture and breadboard layout applications.
-- [XOD Visual Programming Arduino](https://www.youtube.com/watch?v=qxjLH_3US04&feature=youtu.be) - Program Arduino in a very particular way through visual blocks.
-- [Electronics Weekly](https://www.electronicsweekly.com/) - Electronics Weekly is a good resource for those looking for industry-related news. There are topics in business, design, products, and so much more which are all directly related to electrical engineering. You can also use it to view available jobs or post jobs yourself.
+Lütfen sadece burda anlatılanlarla kalmayınız. Hepinizie başarılar.
 
-## Contribute ##
 
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
